@@ -21,7 +21,7 @@
   },
   {
     "ParameterKey": "MasterUserPassword",
-    "ParameterValue": ""
+    "ParameterValue": "Password1!"
   },
   {
     "ParameterKey": "InboundTraffic",
