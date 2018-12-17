@@ -21,14 +21,18 @@
   },
   {
     "ParameterKey": "MasterUserPassword",
-    "ParameterValue": "Password1!"
+    "ParameterValue": ""
   },
   {
     "ParameterKey": "InboundTraffic",
     "ParameterValue": "0.0.0.0/0"
   },
   {
-    "ParameterKey": "BucketName",
+    "ParameterKey": "RedshiftBucketName",
     "ParameterValue": "colibri-digital-source-data"
+  },
+  {
+    "ParameterKey": "SpectrumBucketName",
+    "ParameterValue": "colibri-digital-source-data-spectrum"
   }
 ]

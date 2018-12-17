@@ -1,4 +1,4 @@
-CREATE SCHEMA imdb;
+nCREATE SCHEMA imdb;
 
 CREATE TABLE imdb.title(
   titleId VARCHAR (20),
@@ -22,3 +22,13 @@ CREATE TABLE imdb.title_basics(
   runTimeMinutes BIGINT,
   genres VARCHAR(5000)
 )
+
+CREATE TABLE imdb.name_basics(
+  nconst VARCHAR (20),
+  primaryName VARCHAR (200),
+  birthYear VARCHAR (4),
+  deathYear VARCHAR (4),
+  primaryProfession VARCHAR (5000),
+  knownForTitles VARCHAR (5000)
+)
+
